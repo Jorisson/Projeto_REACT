@@ -1,5 +1,5 @@
 import React from "react";
-import ".Square.css";
+import "./Square.css";
 
 function Square (){
   return <div className="square" />;
