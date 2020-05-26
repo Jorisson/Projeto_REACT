@@ -1,16 +1,8 @@
 import React from "react";
-import "./Square.css";
+import styles from "./Square.module.css";
 
-function Square ({color}){
-  const styles = {
-      width: "100px", 
-      height: "100px",
-      backgroundColor: color
-  };
-  
-  return (
-    <div style={styles} />
-    );
+function Square (){  
+  return <div className={[styles.shape, styles.color].join(" ")} />;
 }
 
 export default Square;

@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import Square from "./Square/Square";
 
 function App () {
-  return <Square color="red" />;
+  return <Square />;
 }
 
 ReactDOM.render(<App />, document.getElementById('root'));
